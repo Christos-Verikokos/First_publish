@@ -4,7 +4,7 @@ requested_toppings = ['olives', 'pepperoni']
 #Customer list of toppings that they available in the restaurant.
 customer_toppings = []
 
-#check each topping whether it exist in available toppings.
+#check each topping whether it existed in available toppings.
 for requested_topping in requested_toppings:
     if requested_topping in available_toppings:
         print(f"Adding {requested_topping}.")

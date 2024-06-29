@@ -13,7 +13,7 @@ for requested_topping in requested_toppings:
         print(f"Sorry, we don't have {requested_topping}.")
 
 if len(customer_toppings) == 1:     #whether customer list have one topping, print "is"
-    print(f"\nSummary toppings you want is:\n- {customer_toppings}")    
+    print(f"\nThe topping you want is:\n- {customer_toppings}")    
 elif len(customer_toppings) > 1:    #whether customer list have more than one topping, print "are"
     print("Summary toppings you want are:")
     for customer_topping in customer_toppings:
